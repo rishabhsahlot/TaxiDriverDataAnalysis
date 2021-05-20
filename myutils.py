@@ -1,0 +1,19 @@
+def hourToLabelEncoder(hour):
+    if hour<6:
+        return '0-6'
+    elif hour<10:
+        return '6-10'
+    elif hour<11:
+        return '10-11'
+    elif hour<12:
+        return '11-12'
+    elif hour<14:
+        return '12-14'
+    elif hour<16:
+        return '14-16'
+    elif hour<18:
+        return '16-18'
+    elif hour<22:
+        return '18-22'
+    else :
+        return '22-24'
